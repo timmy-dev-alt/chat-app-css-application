@@ -319,7 +319,7 @@ h1{
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (min-width:375px) {
  
     .box{
         height: 569px;
