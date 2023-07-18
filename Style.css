@@ -5,8 +5,7 @@
 }
 body{
     font-size: 16px;
-    font-family: 'Rubik', sans-serif;
-    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 .container{
     font-family: Rubik, sans-serif;
@@ -15,7 +14,7 @@ body{
     align-items: center;
     align-content: center;
     flex-direction: row;
-    flex-flow: wrap;
+    flex-wrap: wrap;
 }
 .box{
     height: 569px;
@@ -225,7 +224,8 @@ h2{
     width: 261px;
     border-radius: 20px;
     border: none;
-    padding: 13px;
+    padding: 0.5em 0.75em 0.5em 1.5em;
+    margin: 1em 0.5em 0.5em 0.5em;
 }
 .chat8 :placeholder{
     color:hsl(206, 6%, 79%);
@@ -319,7 +319,7 @@ h1{
     }
 }
 
-@media screen and (min-width:375px) {
+@media screen and (max-width:375px) {
  
     .box{
         height: 569px;
